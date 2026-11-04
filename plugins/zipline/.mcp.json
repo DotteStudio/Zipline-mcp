@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "zipline": {
+      "type": "http",
+      "url": "https://zipline.li/api/mcp"
+    }
+  }
+}
