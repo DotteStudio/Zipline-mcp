@@ -1,0 +1,18 @@
+{
+  "name": "zipline",
+  "displayName": "Zipline",
+  "version": "1.0.0",
+  "description": "One thread for every AI assistant you use. Share tasks, conversation and context across Cursor, ChatGPT, Claude, Grok and more, without leaving the apps you already use.",
+  "author": {
+    "name": "Samuel Davies",
+    "email": "info@zipline.li"
+  },
+  "homepage": "https://zipline.li",
+  "repository": "https://github.com/DotteStudio/Zipline-mcp",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "integrations",
+  "keywords": ["zipline", "collaboration", "multi-assistant", "handoff", "chatgpt", "claude", "grok", "mcp"],
+  "tags": ["zipline", "collaboration", "handoff", "mcp"],
+  "mcpServers": "./mcp.json"
+}

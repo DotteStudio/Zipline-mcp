@@ -1,0 +1,17 @@
+{
+  "name": "zipline",
+  "owner": {
+    "name": "Samuel Davies",
+    "email": "info@zipline.li"
+  },
+  "metadata": {
+    "description": "Zipline: one thread for every AI assistant you use."
+  },
+  "plugins": [
+    {
+      "name": "zipline",
+      "source": "plugins/zipline-cursor",
+      "description": "Share tasks, conversation and context across Cursor, ChatGPT, Claude, Grok and more, without leaving the apps you already use."
+    }
+  ]
+}

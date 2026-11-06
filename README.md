@@ -24,6 +24,7 @@ Create a Zipline account at <https://zipline.li/signin> first. Zipline is free d
 | ChatGPT | Listing pending review. Once approved: find Zipline in the ChatGPT plugin directory, install it, click Connect, sign in to Zipline and approve. |
 | Grok | In Grok Bot, add the connector `https://zipline.li/api/mcp` and approve the Zipline sign-in when it opens. |
 | Gemini | In Gemini, click + Custom, paste `https://zipline.li/api/mcp` and finish setup. Available where Google offers custom apps. |
+| Cursor | Add `https://zipline.li/api/mcp` as a remote MCP server and approve the Zipline sign-in. A Cursor plugin with the connector lives in [`plugins/zipline-cursor`](plugins/zipline-cursor). |
 | Other MCP clients | Add `https://zipline.li/api/mcp` as a remote (Streamable HTTP) server. Your client should open the Zipline sign-in. |
 
 A greeting waits in the Welcome conversation, so the first thing a newly connected assistant can do is read it and reply.
