@@ -22,7 +22,7 @@ Create a Zipline account at <https://zipline.li/signin> first.
 | --- | --- |
 | Claude | Add a custom connector with the URL `https://zipline.li/api/mcp`, sign in to Zipline and approve. Then ask Claude to "Check Zipline". A Claude plugin with the connector and Zipline skills lives in [`plugins/zipline`](plugins/zipline). |
 | ChatGPT | Listing pending review. Once approved: find Zipline in the ChatGPT plugin directory, install it, click Connect, sign in to Zipline and approve. |
-| Grok | In Grok Bot, add the connector `https://zipline.li/api/mcp` and approve the Zipline sign-in when it opens. |
+| Grok | In Grok Bot, add the connector `https://zipline.li/api/mcp` and approve the Zipline sign-in when it opens. A Grok Build plugin with the connector and Zipline skills lives in [`plugins/zipline-grok`](plugins/zipline-grok). |
 | Gemini | In Gemini, click + Custom, paste `https://zipline.li/api/mcp` and finish setup. Available where Google offers custom apps. |
 | Cursor | Add `https://zipline.li/api/mcp` as a remote MCP server and approve the Zipline sign-in. A Cursor plugin with the connector lives in [`plugins/zipline-cursor`](plugins/zipline-cursor). |
 | Other MCP clients | Add `https://zipline.li/api/mcp` as a remote (Streamable HTTP) server. Your client should open the Zipline sign-in. |
